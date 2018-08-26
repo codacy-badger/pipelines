@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Ruud Schuurmans</Authors>
+    <PackageLicenseUrl>https://github.com/evokedotnet/pipelines/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>Ruud Schuurmans</Owners>
+    <PackageProjectUrl>https://github.com/evokedotnet/pipelines</PackageProjectUrl>
+    <Summary>A simple plug 'n play implementation of the pipeline pattern.</Summary>
+    <Title>EvokeDotNet.Pipeline</Title>
+    <Description>A simple plug 'n play implementation of the pipeline pattern.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Interfaces\IPipelineFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Processors\" />
+  </ItemGroup>
+</Project>
