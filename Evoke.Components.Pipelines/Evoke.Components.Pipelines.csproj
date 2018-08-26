@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
     <Authors>Ruud Schuurmans</Authors>
     <PackageLicenseUrl>https://github.com/evokedotnet/pipelines/blob/master/LICENSE</PackageLicenseUrl>
@@ -9,8 +9,11 @@
     <Owners>Ruud Schuurmans</Owners>
     <PackageProjectUrl>https://github.com/evokedotnet/pipelines</PackageProjectUrl>
     <Summary>A simple plug 'n play implementation of the pipeline pattern.</Summary>
-    <Title>EvokeDotNet.Pipeline</Title>
+    <Title>Evoke.Components.Pipelines</Title>
     <Description>A simple plug 'n play implementation of the pipeline pattern.</Description>
+    <PackageId>Evoke.Components.Pipelines</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <PackageTags>pipeline evoke pipelines immutable</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
