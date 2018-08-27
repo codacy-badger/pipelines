@@ -12,7 +12,7 @@
     <Title>Evoke.Components.Pipelines</Title>
     <Description>A simple plug 'n play implementation of the pipeline pattern.</Description>
     <PackageId>Evoke.Components.Pipelines</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <PackageTags>pipeline evoke pipelines immutable</PackageTags>
   </PropertyGroup>
 
@@ -22,6 +22,7 @@
   <ItemGroup>
     <Compile Remove="Class1.cs" />
     <Compile Remove="Interfaces\IPipelineFactory.cs" />
+    <Compile Remove="Playground.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
