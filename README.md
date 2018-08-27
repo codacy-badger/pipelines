@@ -1,4 +1,6 @@
-## Introducion
+![Screenshot](https://i.imgur.com/88CTlmq.png)
+
+## Introduction
 This package provides a simple plug and play implementation of the Pipeline Pattern. It allows you to re-use code. You can compare a pipeline to a production-line, where every stage in the production performs a certain action on a certain payload, and passes it on to the next stage. Stages can act on, manipulate, decorate, or even replace the payload.
 
 This package is maintained by @ruudschuurmans.

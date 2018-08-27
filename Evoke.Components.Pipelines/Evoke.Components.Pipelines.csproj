@@ -12,8 +12,9 @@
     <Title>Evoke.Components.Pipelines</Title>
     <Description>A simple plug 'n play implementation of the pipeline pattern.</Description>
     <PackageId>Evoke.Components.Pipelines</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <PackageTags>pipeline evoke pipelines immutable</PackageTags>
+    <PackageIconUrl>http://gravatar.com/avatar/186f6a7c103f74c4d5efb68d084c3f07?s=400</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
